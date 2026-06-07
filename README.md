@@ -1,16 +1,17 @@
-# React + Vite
+# TradeMind AI Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A transparent marketplace for high-performance AI trading algorithms.
 
-Currently, two official plugins are available:
+## Features
+- **Dynamic Configuration**: All bot data, pricing, and brand info are managed via JSON files.
+- **Verified Results**: Image gallery for verified trade logs.
+- **Direct Checkout**: Integrated bank deposit payment flow with WhatsApp confirmation.
+- **Responsive Design**: Optimized for Mobile, iOS, and PC.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Quick Start
+1. Install dependencies: `npm install`
+2. Run development server: `npm run dev`
+3. Build for production: `npm run build`
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Management
+See [HANDOVER.md](./HANDOVER.md) for detailed instructions on how to update bot names, prices, and bank details.
