@@ -4,7 +4,7 @@ Congratulations on your new AI trading algorithm marketplace! Your website is fu
 
 ## 🔗 Project Links
 - **GitHub Repository:** [https://github.com/zondiboyfxtraders/trademind-ai](https://github.com/zondiboyfxtraders/trademind-ai)
-- **Live Preview (Dev):** `http://spongebob.killer.com` (Note: Ensure your DNS is pointed to your hosting provider).
+- **Live Preview (Dev):** `https://spongebob-killer.com` (Note: Ensure your DNS is pointed to your hosting provider).
 
 ## 🛠 Management & Updates
 The website is built to be "Code-Free" for daily management. You can update key business data by editing JSON files in the `/public/data/` folder directly on GitHub or locally.
@@ -38,7 +38,7 @@ To make your site public:
 3. Select the `trademind-ai` repository.
 4. Keep all default build settings (Framework: Vite).
 5. Click **"Deploy"**.
-6. Once deployed, add your custom domain (`spongebob.killer.com`) in the hosting dashboard.
+6. Once deployed, add your custom domain (`spongebob-killer.com`) in the hosting dashboard.
 
 ## 📱 Support
 All support buttons on the site lead directly to your WhatsApp number. Ensure you have the WhatsApp Desktop app or a dedicated phone ready to handle "Proof of Payment" submissions.

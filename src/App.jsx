@@ -114,7 +114,7 @@ function App() {
 
         <div className="max-w-6xl mx-auto pt-12 border-t border-charcoal/50 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-slate-500 font-medium">
           <p>&copy; {new Date().getFullYear()} {brandName}. All rights reserved.</p>
-          <p>{brand?.domain || "spongebob.killer.com"}</p>
+          <p>{brand?.domain || "https://spongebob-killer.com"}</p>
         </div>
       </footer>
     </div>
