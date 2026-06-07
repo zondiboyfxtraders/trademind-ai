@@ -1,0 +1,47 @@
+{
+  "lastUpdated": "2026-06-06T12:15:00Z",
+  "bots": [
+    {
+      "id": "TM-001",
+      "name": "Alpha Scalper Pro",
+      "return": "+28.45%",
+      "profit": "$4,231.50",
+      "drawdown": "4.2%",
+      "winRate": "72.4%",
+      "status": "Trading",
+      "performance": 75
+    },
+    {
+      "id": "TM-002",
+      "name": "Momentum Max AI",
+      "return": "+19.08%",
+      "profit": "$2,840.12",
+      "drawdown": "3.1%",
+      "winRate": "68.9%",
+      "status": "Trading",
+      "performance": 60
+    },
+    {
+      "id": "TM-003",
+      "name": "Trend Master iOS",
+      "return": "+24.07%",
+      "profit": "$3,612.80",
+      "drawdown": "5.4%",
+      "winRate": "71.2%",
+      "status": "Trading",
+      "performance": 70
+    }
+  ],
+  "verifiedScreenshots": [
+    {
+      "url": "/images/results/screenshot1.png",
+      "caption": "Recent Profit Snapshot - Alpha Scalper Pro",
+      "date": "2026-06-05"
+    },
+    {
+      "url": "/images/results/screenshot2.png",
+      "caption": "Weekly Performance Overview",
+      "date": "2026-06-04"
+    }
+  ]
+}

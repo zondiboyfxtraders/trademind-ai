@@ -1,0 +1,46 @@
+{
+  "plans": [
+    {
+      "id": "mobile",
+      "name": "Mobile Lifetime",
+      "price_zar": "R1,600",
+      "price_usd": "$97",
+      "features": [
+        "Android & General Mobile",
+        "One-time payment — never pay again",
+        "Lifetime access & updates",
+        "24/7 WhatsApp support"
+      ],
+      "cta": "Get Mobile Bot",
+      "highlight": false
+    },
+    {
+      "id": "ios",
+      "name": "iOS Lifetime",
+      "price_zar": "R2,500",
+      "price_usd": "$150",
+      "features": [
+        "iOS Optimized",
+        "One-time payment — never pay again",
+        "Lifetime access & updates",
+        "Priority WhatsApp support"
+      ],
+      "cta": "Get iOS Bot",
+      "highlight": true
+    },
+    {
+      "id": "pc",
+      "name": "PC Bot Lifetime",
+      "price_zar": "R5,000",
+      "price_usd": "$301",
+      "features": [
+        "Advanced PC Automation",
+        "MetaTrader Integration",
+        "Lifetime access & updates",
+        "Full customization"
+      ],
+      "cta": "Get PC Bot",
+      "highlight": false
+    }
+  ]
+}

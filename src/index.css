@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #1A1A1A;
+  --color-orange: #FF8C00;
+  --color-yellow: #FFD700;
+  --color-success: #4CAF50;
+  --color-bg-light: #FFFFFF;
+  --color-text-dark: #212529;
+  --color-text-light: #FFFFFF;
+  --color-whatsapp: #25D366;
+  
+  /* Mapping for existing component classes */
+  --color-navy: var(--color-charcoal);
+  --color-gold: var(--color-orange);
+  
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  background-color: var(--color-bg-light);
+  color: var(--color-text-dark);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-charcoal);
+}
+
+/* Specific component overrides for text on dark/orange backgrounds */
+.text-on-charcoal { color: #FFFFFF; }
+.text-on-orange { color: #FFFFFF; }
+
+.bg-charcoal { background-color: var(--color-charcoal); }
+.bg-orange { background-color: var(--color-orange); }
+.bg-yellow { background-color: var(--color-yellow); }
+.text-orange { color: var(--color-orange); }
+.text-yellow { color: var(--color-yellow); }
+
+/* Compatibility classes */
+.bg-navy { background-color: var(--color-charcoal); }
+.text-gold { color: var(--color-orange); }
+.bg-gold { background-color: var(--color-orange); }
+.bg-whatsapp { background-color: var(--color-whatsapp); }
