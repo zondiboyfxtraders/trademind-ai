@@ -45,7 +45,7 @@ function App() {
             </div>
           </div>
           <div className="hidden md:flex gap-8 font-bold text-sm uppercase tracking-widest text-slate-300">
-            <a href="#results" className="hover:text-orange transition">Results</a>
+            <a href={brand?.telegram || "#results"} target="_blank" rel="noopener noreferrer" className="hover:text-orange transition">Results</a>
             <a href="#pricing" className="hover:text-orange transition">Pricing</a>
             <a href="#about" className="hover:text-orange transition">About</a>
             <a href="#contact" className="hover:text-orange transition text-white border border-white/20 px-4 py-2 rounded-lg -mt-2">Support</a>

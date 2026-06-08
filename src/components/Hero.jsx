@@ -19,7 +19,9 @@ const Hero = ({ brand }) => {
             View Bots & Pricing →
           </a>
           <a 
-            href="#results" 
+            href={brand?.telegram || "#results"} 
+            target="_blank"
+            rel="noopener noreferrer"
             className="border-2 border-white hover:bg-white hover:text-charcoal text-white px-8 py-4 rounded-lg font-bold text-lg transition text-center"
           >
             See Live Results
